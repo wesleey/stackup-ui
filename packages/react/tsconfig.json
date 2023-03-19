@@ -1,0 +1,4 @@
+{
+  "extends": "@stackup-ui/tsconfig/react.json",
+  "include": ["src"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "@stackup-ui/tsconfig",
+  "version": "1.0.0",
+  "private": false,
+  "files": [
+    "base.json",
+    "next.json",
+    "node.json",
+    "react.json"
+  ]
+}

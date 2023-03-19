@@ -1,0 +1,24 @@
+{
+  "name": "@stackup-ui/web",
+  "version": "1.0.1",
+  "private": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "dependencies": {
+    "@stackup-ui/core": "^1.0.1",
+    "@stitches/react": "^1.2.8"
+  },
+  "devDependencies": {
+    "@stackup-ui/eslint-config": "^1.0.0",
+    "@stackup-ui/tsconfig": "^1.0.0",
+    "eslint": "^8.35.0",
+    "tsup": "^6.6.3",
+    "typescript": "^4.7.4"
+  }
+}

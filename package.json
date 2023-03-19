@@ -1,0 +1,40 @@
+{
+  "name": "@stackup-ui/monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Wesley Barbosa <wesley.barbosa.developer@gmail.com>",
+  "license": "MIT",
+  "workspaces": [
+    "docs/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install",
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@stackup-ui/eslint-config": "^1.0.0",
+    "commitizen": "^4.2.6",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.4",
+    "turbo": "^1.8.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.19",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
