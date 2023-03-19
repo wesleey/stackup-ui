@@ -1,0 +1,2 @@
+import{H as o}from"./index-c3e92b24.js";import"./index-34e51894.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./index-75cd1920.js";import"./index-c12db9c2.js";import"./jsx-runtime-da4cfb3b.js";const n={title:"Typography/Heading",component:o,args:{size:"md",children:"Lorem ipsum"},argTypes:{size:{control:"inline-radio",options:["6xl","5xl","4xl","3xl","2xl","lg","md","sm"]}}},p={},a=["Default"];export{p as Default,a as __namedExportsOrder,n as default};
+//# sourceMappingURL=Heading.stories-b27d036f.js.map
